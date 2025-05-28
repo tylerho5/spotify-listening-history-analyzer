@@ -123,7 +123,7 @@ class DataGrabber:
         return songs
 
     def writeCSV(self, dataframe):
-        output_path = os.path.join(self.script_dir, 'output' ,'spotify_history.csv')
+        output_path = os.path.join(self.script_dir, 'output' ,'spotify-history.csv')
         dataframe.to_csv(output_path, index = False)
         formatted_path = f'"{os.path.abspath(output_path)}"'
         #print(f"Data written to {formatted_path}")
