@@ -102,3 +102,7 @@ analyzer.howManySongs()      # Prints the number of unique songs listened in 202
 - **spotify-history.csv** - Output CSV file that `DataGrabber.py` produces, containing the cleaned, filtered, and aggregated listening history for the specified year. This file is genereated at runtime and is not included in the repo.
 
 - **demo.ipynb** - Jupyter Notebook demonstrating usage of `HistoryAnalyzer.py`. SHows how to instantiate the class and call various methods.
+
+## Future Development
+- Integrate usage of the Spotify Web API to obtain more song metadata, allowing for further music habit analysis
+- React.js frontend to make a cleaner interface than Jupyter Notebook
