@@ -1,4 +1,4 @@
-name: spotify-env
+name: spotify-analyzer
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main
