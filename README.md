@@ -1,4 +1,4 @@
-# Spotify Listening History Analyzer
+# spotify-listening-history-analyzer
 
 This is a personal project I built to showcase working with real-world Spotify data to create clean, informative visualizations of muslc listening habits. You can request your Spotify streaming history in JSON format directly from Spotify and see some interesting statistics about the music you listen to. This project inspired by Spotify's own statistics analysis project, Spotify Wrapped.
 
